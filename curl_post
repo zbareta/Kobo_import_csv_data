@@ -1,0 +1,1 @@
+curl -X POST https://kobocat.unhcr.org/api/v1/forms/{form_id}/csv_import -F csv_file=@/home/{username}/Desktop/test.csv -u {username}:{password}
